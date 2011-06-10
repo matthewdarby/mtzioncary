@@ -1,0 +1,3 @@
+AuthName "Authorized users only."
+AuthUserFile D:\home\mtzioncary.org\secure\.htpasswd
+Require user leadership

@@ -1,0 +1,11 @@
+# -FrontPage-
+
+Options None
+
+<Limit GET POST PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName music_ministry/admin
+AuthUserFile /home/mtzionmb/www/www/music_ministry/admin/_vti_pvt/service.pwd
+AuthGroupFile /home/mtzionmb/www/www/music_ministry/admin/_vti_pvt/service.grp

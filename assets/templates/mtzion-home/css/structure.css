@@ -1,0 +1,512 @@
+/*
+	Author: Matt Darby					Email: matthew.darby@gmail.com
+	Date: 12/15/2007					Website: http://mtzionmb.org
+	Name: Mt. Zion Home Style Sheet		Version: 1.0
+*/
+
+/*-----------------------------------------------------------------------
+*  =SITE STRUCTURE
+*  styles defined here will determine the structure of the HTML markup
+*  such as moving the primary menu left or right, defining the width of 
+*  content container and other meaningful structure definitions
+*------------------------------------------------------------------------*/
+
+* {
+	margin:0; 
+	padding:0;	
+}
+
+body {
+	background:#F3F3F3;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+ 	font-size:75%;
+	color:black;
+}
+
+body#home {background:#CCC;}
+
+#home div#container {
+	background:#FFFFFF url(/assets/templates/mtzion-home/img/site-bg.png) repeat-x;
+}
+	
+	#home div#bg-container {
+		background:url(/assets/templates/mtzion-home/img/big-bg.jpg) 50% 98px no-repeat;
+	}
+
+#secondary div#container {
+	background:#FFF url(/assets/templates/mtzion-home/img/site-bg-purple.png) repeat-x;
+}
+	
+	#secondary div#bg-container {
+		background:url(/assets/templates/mtzion-home/img/big-bg-purple.jpg) 50% 100px no-repeat;
+	}
+
+#header {
+	position:relative;
+	height:56px;
+	width:930px;
+	margin:0 auto;
+	padding:0px 0 29px 0;
+	text-align:left;
+}
+		
+	#header div#mtzion-family{
+		z-index: 45;
+		float: right;
+		margin: 0px 0 0 0px;
+	}		
+
+#content-container {
+	width:930px;
+	padding:0;
+	margin:0 auto;
+	padding:15px 0;
+	text-align:left;
+}
+
+	.no-menu #content-container  {
+		width: 950px;
+	}	
+
+	#content-container div#main-content {
+		float: right;
+		width:450px;
+		padding-top:0px;
+	}
+		
+	#content-container div#secondary-content {
+		float: right;
+		width:650px;
+		padding-top:120px;
+	}
+
+	.no-menu #content-container div#secondary-content {
+		width: 100%;
+                padding-bottom: 20px;
+	}
+		
+	#content-container div#image-drape {
+		float: left;
+		height:539px;
+		width: 413px;
+		margin: 0px 0 0 0;
+		background:url(/assets/templates/mtzion-home/img/img-panel.jpg) no-repeat; 
+		
+	}	
+	
+#secondary-sidebar {
+	float: left;
+	width:250px;
+	padding: 1px 0 2px 0;
+	margin: 0;	
+}
+
+
+#footer {
+    border-top: #CCC solid 1px;
+    background:url(/assets/templates/mtzion-home/img/footer-bg2.png) repeat-x;
+	height:80px;
+	text-align:center;
+}
+
+	#home #footer {
+		border: none;
+		font-size: 11px;
+		height:235px;
+		background:url(/assets/templates/mtzion-home/img/footer-bg.png) repeat-x;
+		color:#000;
+		text-align:center;
+	}
+
+	.footer-container {
+		width:930px;
+		margin:0 auto;
+		padding-top:20px;
+	}
+
+	#footer #below-drape{
+		width: 413px;
+		float: left;
+	
+	}
+	
+
+
+/* Custome Snippet Styles */
+.B_crumbBox {
+	font-size: 10px;
+} 
+	
+
+/************************************************
+*	Header  									*
+************************************************/
+
+#headertext {
+	width: 278px;
+	height:100px; 	
+	color: #682787;
+	float: left;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	position: relative;
+	}
+	
+#headertext  a, #headertext  a:visited {
+	font-family: "Arial" ;
+	font-size: 20px;
+	color: #A52E41;
+	text-decoration: none;
+	font-weight: normal;
+	padding: 0px;
+	margin: 0px 0px 15px 0px;
+	}
+
+#headertext  a:hover {
+	color: yellow;
+	text-decoration: none;
+	}
+
+#headertext a span {
+	background:url(/assets/templates/mtzion-home/img/mtzion-banner.png) no-repeat;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#headertext p {
+	position: relative;
+	line-height: 25px;
+}
+
+	
+/************************************************
+*	Content Container				     	    * 
+************************************************/
+#main-content p,
+  #main-content ul,
+  #main-content ol {
+	color:#FFFFFF;
+	font-size: 16px;
+}
+
+#content-container a,
+  #content-container a:link,
+  #content-container a:visited {
+	color: #96405B;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 1px 0;
+}
+
+#content-container a:hover {
+	color: #333333;
+	background-color: #EFEFEF;
+	border-bottom: 1px solid #AB0101;
+}
+
+#content-container a.external { 
+	background: url(/images/wakeface/external-link.gif) 100% 40% no-repeat;
+	padding-right: 15px;
+} 
+
+#home #content-container a,
+  #home #content-container a:link,
+  #home #content-container a:visited {
+	color: yellow;
+	border-bottom: 1px solid #aecdfc;
+	padding-bottom: 1px;
+	border: none;
+}
+
+#home #content-container a:hover {
+	color: #FFFFFF;
+	border-bottom: 1px solid #AB0101;
+	background: none;
+}
+
+#secondary-content ul li {
+	list-style-image: url(/assets/templates/mtzion-home/img/li-disc);
+}
+
+
+/************************************************
+* Pods     								*
+************************************************/
+.sideRight {
+	float: right;
+}
+
+.sideLeft {
+	float: left;
+}
+
+#secondary-content .videoPod {
+	border: 1px solid #999999;
+	background: #E8E9E0;
+	width: 400px;
+	margin: 0px auto;
+	padding: 5px;
+	color:#363B35;
+}
+
+#secondary-content .videoPod p.header {
+	font-size: 20px;
+	font-weight: bold;
+	text-align:center;
+	color:#363B35;
+}
+
+#secondary-content .videoPod a {
+	border-bottom: none;
+	font-weight: normal;
+}
+
+#secondary-content .videoPod ul {
+	list-style: none;
+	margin: 0px auto;
+	padding: 0px;
+	color: #FFF;
+	text-align: center;
+	width: 400px;
+}
+
+#secondary-content .videoPod ul li {
+	display: inline;
+	padding: 0px;
+	margin: 0px;
+	font-size: 18px;	
+}
+	
+#secondary-content .videoPod ul li a, #secondary-content .videoPod ul li a:visited {
+	background: #9844C1;
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: 0px;
+	padding: 15px 10px;
+	border: 1px solid #4F004F;
+}
+
+#secondary-content .videoPod ul li a:hover {
+	background: #9E9BCC;
+	color: #FFFFFF;
+}
+
+
+/************************************************
+*	Image Drape                                 * 
+************************************************/
+
+#image-drape p
+	, #image-drape h1
+	, #image-drape h2
+	, #image-drape h3 {
+	font-size: 15px;	
+	margin: 5px 0 0 10px;
+	color:#000000;
+}
+
+#image-drape p {
+	font-weight: bold;
+}
+#image-drape h3 {
+	background:#A52E41;
+	border-color:#A52E41;
+	margin: 0 0 0 1px;
+	padding: 0 0 0 10px;
+	font-size:20px;
+}
+
+
+
+/************************************************
+*	Secondary Sidebar                           * 
+************************************************/
+
+#secondary-sidebar h3 {
+	color: black;
+	margin-bottom: 0px;
+	padding-bottom: 5px;
+	letter-spacing: .1mm;
+}
+
+#main-content ul,
+  #secondary-sidebar div#section-pages ul,
+  #secondary-sidebar div#primary-menu ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+#main-content li, 
+#secondary-sidebar div#primary-menu li {
+	background: url(/assets/templates/mtzion-home/img/double-arrow.gif) no-repeat 0 50%;
+	padding-left: 15px;
+}
+
+#secondary-sidebar div#section-pages li {
+	background: url(/assets/templates/mtzion-home/img/arrow.gif) no-repeat 0 50%;
+	padding-left: 15px;
+}
+
+
+#secondary-sidebar p
+ , #secondary-sidebar ul
+ , #secondary-sidebar ol {
+	font-size: 10pt;
+	padding:  5px 2px 10px 2px;
+}
+
+#secondary-sidebar div#primary-menu,
+	#secondary-sidebar div#section-pages {
+	background: #C7A07D;
+}
+
+#secondary-sidebar div#primary-menu p,
+     #secondary-sidebar div#section-pages p {
+	color: black;
+	font: bold 14px normal Helvetica, Arial, Verdana, san-serif;
+	letter-spacing: .1mm;
+	margin-bottom: 0px;
+	padding-bottom: 5px;
+}
+
+#secondary-sidebar img.lower-image {
+	border-top: 15px solid #A47EB6;
+}
+
+#secondary-sidebar  a,
+  #secondary-sidebar  a:link, 
+  #secondary-sidebar a:hover, 
+  #secondary-sidebar a:visited{
+	color: yellow;
+	background: none;
+	border: none;
+}
+
+  #secondary-sidebar a:hover {
+  	text-decoration:underline;
+  }
+  
+p#icons {
+	margin: 0;
+	padding: 24px 0;
+	background: #A52E41;
+}
+	#contact-us{float: left;}
+	#contact-us a span, #contact-us a:visited span {
+		background:url(/assets/templates/mtzion-home/img/contact-us.jpg) no-repeat;
+		margin:1px 0 0 0;
+		padding:10px 5px 0 5px;
+		width: 89px;
+		height: 19px;	
+		position: absolute;
+	}
+
+	#contact-us a:hover span {
+		background:url(/assets/templates/mtzion-home/img/contact-us_hover.jpg) no-repeat;
+		padding-top: 10px;
+	}
+
+	#contact-us a:hover {
+		text-decoration: none;
+	}
+
+	#directions {float: right;}
+	#directions a span, #directions a:visited span {
+		background:url(/assets/templates/mtzion-home/img/directions.jpg) no-repeat;
+		margin:1px 0 0 -25px;
+		padding:10px 0px 0 0px;
+		width: 82px;
+		height: 19px;	
+		position: absolute;
+	}
+
+	#directions a:hover span {
+		background:url(/assets/templates/mtzion-home/img/directions_hover.jpg) no-repeat;
+		padding-top: 10px;
+	}
+
+	#directions a:hover {
+		text-decoration: none;
+	}
+/************************************************
+*	Footer      								*
+************************************************/
+#video-footer {
+	padding-left: 300px;
+       
+}
+
+#footer a,
+  #footer a:link,
+  #footer a:visited {
+	color:#AB0101;
+	border-bottom:1px solid #CCCCCC;
+	padding-bottom: 2px;
+}
+
+#footer a:hover {
+	color: #333333;
+	background-color: #FFFFFF;
+	border-bottom:1px solid #AB0101;
+}
+
+#footer h1,
+  #footer h2,
+  #footer h3,
+  #footer h4,
+  #footer h5,
+  #footer h6 {margin-bottom:0;}
+
+#footer p,
+  #footer li {
+	color: #464A52;
+}
+
+#home #footer p {
+	font-size: 12pt;
+	font-weight: bold;
+}
+	
+
+
+#footer .content {
+	padding:10px 20px 0 20px;
+}
+	
+
+	
+/*-----------------------------------------------------------------------
+*  =IMAGE REPLACEMENTS
+*  Because fonts are dependent on being defined on the user's machine 
+*  browsing the site, we use image replacements to display the desired 
+*  font that would not be commonly found on a user font system
+*------------------------------------------------------------------------*/
+
+
+#welcome-heading {
+	background:transparent url(/assets/templates/mtzion-home/img/welcome.gif) no-repeat scroll 0%;
+	height:0px !important;
+	overflow:hidden;
+	padding:75px 0pt 0pt 0px;
+}
+
+/*-----------------------------------------------------------------------
+*  =CLEAR FIX
+*  the follow style addesses issues when applying floats to elements it 
+*  clears the area that certain elements are floated to 
+*------------------------------------------------------------------------*/
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+			

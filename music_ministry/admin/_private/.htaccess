@@ -1,0 +1,18 @@
+# -FrontPage-
+
+Options None
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+require group authors administrators
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthType Basic
+AuthName music_ministry/admin
+AuthUserFile /home/mtzionmb/www/www/music_ministry/admin/_vti_pvt/service.pwd
+AuthGroupFile /home/mtzionmb/www/www/music_ministry/admin/_vti_pvt/service.grp

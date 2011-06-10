@@ -1,0 +1,268 @@
+/*------------------------------------------------
+  Mt. Zion
+  File: form.css
+  Author: Matthew Darby
+  Date Created: April 26, 2009
+  Date Last Update: $LastChangedDate: 2008-03-01 10:14:22 -0500 (Sat, 01 Mar 2008) $
+  Revision: $LastChangedRevision: 259 $
+--------------------------------------------------*/
+
+
+/******************************************
+  &Fieldset
+*******************************************/
+fieldset {
+	position: relative;
+	float: left;
+	clear: both;
+	width: 750px;
+	margin: 0 0 -1em 0;
+	padding: 0 0 0.35em 0;
+	border-style: none;
+	border-top: 1px solid #BFBAB0;  
+	background-color: #F2EFE9;
+	zoom: 1;/* fixes IE peek-a-boo bug */
+}
+
+fieldset.submit {
+	float: none;
+	width: auto;
+	border-style: none;
+	padding: 1.5em 0 1em 0;
+	background: transparent;
+}
+
+fieldset.alt {background: #E7E9DC;}
+
+legend {
+	color: #000;
+	font-weight:bold;
+}
+
+/* IE Fix */
+* html legend {
+	position:relative;
+	left: -7px;
+	top: -0.75px;
+}
+
+legend span {
+	position:absolute;
+	left: 0.74em;
+	top: 0;
+	margin: 0.5em 0;
+	font-size: 135%;
+}
+
+/* IE Fix */
+* html legend span {
+	margin-top: 1.25em;
+}
+
+fieldset ol {
+	padding: 3.5em 1em 0 1em;
+	margin: 10px 0 0 5px;
+	list-style:none;
+	float:left;
+}
+
+/* IE Fix */
+* html fieldset ol {
+	padding-top: 3.25em;
+}
+
+fieldset ol.showOrder {
+	list-style: decimal;
+}
+
+fieldset li {
+	padding: .3em 0;
+	list-style-image: none;
+	clear:both;
+}
+
+fieldset li.together {padding: 0;}
+
+fieldset div.inline {
+	float: left;
+	margin-right: 1em;
+}
+
+label {
+	float: left;
+	width: 12em;
+	margin-right: 1em;
+	text-align: right;
+	vertical-align: top;
+}
+
+label.inline {
+	float: none;
+	width: auto;
+}
+
+fieldset ol.longfields label {
+	float: none;
+	width: auto;
+	margin-right: 0;
+	text-align: left;
+	display: block;
+}
+
+fieldset ol li div.inline label {
+	width: 5em;
+}
+
+/******************************************
+  &Inputs
+*******************************************/
+input, textarea, select, input.text, input.file {
+	border: 1px solid #ccc;
+	color:#000;
+	background-color:#FFF;
+	font-size:12px;
+}
+
+input, input.text, input.file {
+	padding: .25em .05em;
+}
+
+input.text, input.file, input[type="text"], input[type='file']{
+	width:20em;
+}
+
+/* IE Fix */
+* html input.text {width:20em;}
+
+input.day {width: 2em; }
+input.year {width: 3em; }
+
+input:focus, textarea:focus {
+	background: #FFFFE1;
+	border: 1px solid #595959;
+}
+
+input.button, #ajaxSearch_submit {
+  background-color: #336077;
+  border: 1px solid #666666;
+  color: #FFF;
+  width: auto;
+  padding: 0 6px;
+  margin: 0;
+}
+
+input.short {
+	width: 10em;
+}
+
+textarea {
+	line-height:160%;
+	height: 20em;
+	width:26.5em;
+}
+
+fieldset ol.longfields textarea, texatarea.long {
+	width: auto;
+}
+/******************************************
+  &Select Lists
+*******************************************/
+select.longselectbox {
+	width: auto;
+	height: 10em;
+}
+
+select {
+	padding: .25em 0;
+	zoom: 1;/* fixes IE peek-a-boo bug */
+}
+
+
+/******************************************
+  &Note Boxes
+*******************************************/
+
+form fieldset div.notes {
+  float: right;
+  width: 18em;
+  height: auto;
+  margin: 4.95em 1em 1em 0.5em;
+  padding: 5px;
+  border: 1px solid #666666;
+  background-color: #ffffe1;
+  color: #666666;
+  font-size: 88%;
+}
+
+/* IE Fix */
+* html form fieldset div.notes {
+	width: 18em;	
+	margin-left: 0em;
+} 
+
+form fieldset div.notes h4 {
+  background-image: url(/images/icons/info.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 3px 0 3px 27px;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #666666;
+  color: #666666;
+  font-size: 110%;
+}
+
+form fieldset div.notes p {
+  margin: 0em 0em 1.2em 0em;
+  color: #666666;
+}
+
+form fieldset div.notes p.last {
+  margin: 0em;
+}
+
+/******************************************
+  &Nested Fieldsets
+*******************************************/
+
+fieldset fieldset {
+	position: relative;
+	border:1px solid #666666;
+	margin:0 0 1em 13em;
+	padding:0pt 5px 5px;
+	width:20em;
+}
+
+/* IE Fix */
+* html fieldset fieldset {
+	margin: 0 0 1em 6.7em;
+}
+
+fieldset fieldset legend {
+	margin: 0;
+	padding:0pt 3px 0pt 9px;
+	font-weight: normal;
+}
+
+fieldset fieldset ol {
+	position: relative;
+	margin: 0 0 0 .3em;
+	padding: 0;
+}
+
+fieldset fieldset ol li {
+	margin: .5em 0;
+	padding: 0;
+}
+
+fieldset fieldset label {
+	width: 15em;
+}
+
+/******************************************
+  &Error Handling
+*******************************************/
+input.required, select.required, textarea.required {
+	background-color:#FFD8CC;
+	border:1px solid #FF3300;
+}
