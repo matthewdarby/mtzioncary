@@ -41,7 +41,7 @@ $c['number_of_messages'] = "30";
 $c['number_of_results'] = "20";
 $c['use_editor'] = "1";
 $c['use_browser'] = "1";
-$c['rb_base_dir'] = "D:/home/mtzioncary.org/wwwroot/assets/";
+$c['rb_base_dir'] = "/var/web/mtzion/modx/www/assets";
 $c['rb_base_url'] = "assets/";
 $c['which_editor'] = "TinyMCE";
 $c['fe_editor_lang'] = "english";
@@ -58,7 +58,7 @@ $c['upload_maxsize'] = "1048576";
 $c['new_file_permissions'] = "0644";
 $c['new_folder_permissions'] = "0755";
 $c['show_preview'] = "0";
-$c['filemanager_path'] = "D:/home/mtzioncary.org/wwwroot/";
+$c['filemanager_path'] = "/var/web/mtzion/modx/www/";
 $c['theme_refresher'] = "";
 $c['manager_layout'] = "4";
 $c['custom_contenttype'] = "text/css,text/html,text/javascript,text/plain,text/xml";
@@ -278,7 +278,7 @@ $c['WebLoginSideBar'] = '<!-- #declare:separator <hr> -->
 $c['MtZionHeader'] = '				<div id="headertext" title="Mt. Zion Church">
 					<a href="/"><img src="/assets/templates/mtzion-home/img/mtzion-banner.png" alt="Mt. Zion: Cary, NC"/></a>				
 				</div>
-<div id="mtzion-family"><a href="/live"><img src="/assets/templates/mtzion-home/img/zion-live.jpg" alt="Watch Zion Live"/></a><a href="http://family.mtzioncary.org"><img src="/assets/templates/mtzion-home/img/mtzion-family.jpg" alt="Mt. Zion Church Family"/></a></div>';
+<div id="mtzion-family"><a href="/live"><img src="/assets/templates/mtzion-home/img/zion-live.jpg" alt="Watch Zion Live"/></a><a href="http://local.family/"><img src="/assets/templates/mtzion-home/img/mtzion-family.jpg" alt="Mt. Zion Church Family"/></a></div>';
 $c['MtZionFooter'] = '		<div class="footer-container clearfix">
 			<div id="below-drape"><p>316 Allen Lewis Drive ~ Cary, NC 27513 <br />
 Telephone:  (919) 469-5323 ~ Fax: (919) 469-3958 </p></div>

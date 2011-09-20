@@ -11,9 +11,9 @@
  <meta name="abstract" content="Mt. Zion" />
  <meta name="author" content="Default admin account" />
  <meta name="copyright" content="Copyright (c) 2005 by Default admin account. All rights reserved." />
- <meta http-equiv="last-modified" content="Sat, 28 May 2011 21:18:19 -0500" />
+ <meta http-equiv="last-modified" content="Sun, 29 May 2011 04:18:19 +0200" />
 
-        <base href="http://mtzioncary.org/" />
+        <base href="http://local.mtzion/" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="verify-v1" content="SSDKBCj7Ktcx6RZsECTKlc7PYekQ02iW3WPUDiq+sqI=" />
         <link rel="stylesheet" type="text/css" media="screen"  href="/assets/templates/mtzion-home/css/screen.css" />
@@ -30,7 +30,7 @@
 								<div id="headertext" title="Mt. Zion Church">
 					<a href="/"><img src="/assets/templates/mtzion-home/img/mtzion-banner.png" alt="Mt. Zion: Cary, NC"/></a>				
 				</div>
-<div id="mtzion-family"><a href="/live"><img src="/assets/templates/mtzion-home/img/zion-live.jpg" alt="Watch Zion Live"/></a><a href="http://family.mtzioncary.org"><img src="/assets/templates/mtzion-home/img/mtzion-family.jpg" alt="Mt. Zion Church Family"/></a></div>
+<div id="mtzion-family"><a href="/live"><img src="/assets/templates/mtzion-home/img/zion-live.jpg" alt="Watch Zion Live"/></a><a href="http://local.family/"><img src="/assets/templates/mtzion-home/img/mtzion-family.jpg" alt="Mt. Zion Church Family"/></a></div>
 			</div>
 			<div id="content-container"  class="clearfix">
 				<div id="main-content">		
@@ -43,8 +43,8 @@
 <li><a href="/home/active_membership.html" title="Active Membership" >How Do I Become Active With the Church?</a></li>
 <li><a href="/home/next_steps.html" title="Next Steps with Christ" >So You Have Received Christ as Lord, Now What?</a></li>
 <li><a href="http://family.mtzioncary.org/assets/files/multimedia/general/MZ%20Constitution%20%20By-Laws.pdf" title="Constitution" >Check Out Mt. Zion's Constitution and By-Laws</a></li>
-<li><a href="http://radical.mtzioncary.org" title="The Radical Experiment" >Join Us with The Radical Experiment in 2011</a></li>
-<li class="last"><a href="http://family.mtzioncary.org/" title="Mt Zion Family" >More Info Here: family.mtzioncary.org</a></li>
+<li><a href="http://local.radical/" title="The Radical Experiment" >Join Us with The Radical Experiment in 2011</a></li>
+<li class="last"><a href="http://local.family/" title="Mt Zion Family" >More Info Here: family.mtzioncary.org</a></li>
 </ul>
 				</div> 
 				<div id="image-drape" >
